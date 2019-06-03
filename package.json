@@ -1,0 +1,42 @@
+{
+  "name": "amdin-customize",
+  "version": "1.0.0",
+  "description": "My dazzling Nuxt.js project",
+  "author": "levietcuong",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-brands-svg-icons": "^5.8.2",
+    "@fortawesome/free-regular-svg-icons": "^5.8.2",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.21",
+    "chart.js": "^2.8.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.4.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "nuxt-simple-line-icons": "^1.0.2",
+    "prettier": "^1.17.1",
+    "sass-loader": "^7.1.0",
+    "vue-chartjs": "^3.4.2",
+    "vue-flag-icon": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
