@@ -70,6 +70,12 @@ import HeaderDropdown from '~/components/Header/HeaderDropdown';
 
 export default {
   name: 'Header',
+  props: {
+    fixed: {
+      type: Boolean,
+      default: false
+    }
+  },
   components: { HeaderDropdown },
   methods: {
     sidebarToggle(e) {
@@ -77,6 +83,15 @@ export default {
       console.log('document.body: ', document.body);
       document.body.classList.toggle('sidebar-hidden')
     },
-  }
+    isFixed(fixed) {
+      fixed
+        ? document.body.classList.add('header-fixed')
+        : document.body.classList.remove('header-fixed')
+      return fixed
+    },
+  },
+  mounted: function () {
+    this.isFixed(this.fixed)
+  },
 }
 </script>

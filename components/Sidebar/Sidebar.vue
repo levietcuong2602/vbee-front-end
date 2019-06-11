@@ -115,7 +115,7 @@ import SidebarNavLabel from '~/components/Sidebar/SidebarNavLabel';
 import SidebarNavDropdown from '~/components/Sidebar/SidebarNavDropdown';
 import SidebarNavLink from '~/components/Sidebar/SidebarNavLink';
 import SidebarNavItem from '~/components/Sidebar/SidebarNavItem';
-import { menu } from '~/components/Sidebar/menu';
+import { menu } from '~/data/menu_2';
 
 export default {
   name: 'Sidebar',

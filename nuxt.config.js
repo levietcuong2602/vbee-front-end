@@ -29,6 +29,10 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css'
+      },
+      {
+        rel: "stylesheet",
+        href: "https://unpkg.com/element-ui/lib/theme-chalk/index.css"
       }
     ]
   },
@@ -55,7 +59,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/plugins.js', '~/plugins/fontawesome.js'],
+  plugins: ['~/plugins/plugins.js', '~/plugins/fontawesome.js', '~/plugins/element-ui.js'],
 
   /*
    ** Nuxt.js modules

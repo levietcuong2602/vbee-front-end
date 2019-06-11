@@ -1,7 +1,7 @@
 <script>
 import { Line } from 'vue-chartjs'
 
-const brandPrimary = '#20a8d8'
+const brandPrimary = '#007bff'
 const datasets = [
   {
     label: 'My First dataset',
